@@ -1,0 +1,25 @@
+# Nmap 7.80 scan initiated Sun Sep 27 22:14:11 2020 as: nmap -A -O -p- -T5 -oN nmap.txt 192.168.1.232
+Nmap scan report for 192.168.1.232
+Host is up (0.00045s latency).
+Not shown: 65533 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 7e:f3:33:8c:be:0c:ed:d7:0e:c6:67:cc:73:bf:c0:ab (RSA)
+|   256 ee:ed:74:02:0d:3f:7d:6d:45:aa:ff:f3:3a:d0:1a:d9 (ECDSA)
+|_  256 d1:18:a9:ef:7f:b6:c8:a9:30:52:c8:e6:b6:ec:64:80 (ED25519)
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Coming Soon
+MAC Address: 08:00:27:2A:C0:85 (Oracle VirtualBox virtual NIC)
+Aggressive OS guesses: Linux 2.6.32 (96%), Linux 3.2 - 4.9 (96%), Linux 2.6.32 - 3.10 (96%), Linux 3.4 - 3.10 (95%), Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Synology DiskStation Manager 5.2-5644 (94%), Netgear RAIDiator 4.2.28 (94%), Linux 2.6.32 - 2.6.35 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.45 ms 192.168.1.232
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep 27 22:14:32 2020 -- 1 IP address (1 host up) scanned in 21.59 seconds

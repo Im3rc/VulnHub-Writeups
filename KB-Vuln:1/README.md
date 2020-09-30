@@ -1,5 +1,5 @@
 # KB-VULN: 1
-## Descrbe 
+## Description
 
 -  Machine Level : Easy
 -  Description : ENUMERATION ENUMERATION and ENUMERATION! This VM is running on VirtualBox. And has 2 flags:user.txt and flag.txt.

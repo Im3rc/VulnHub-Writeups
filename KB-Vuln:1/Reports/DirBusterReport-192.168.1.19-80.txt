@@ -1,0 +1,85 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Tue Sep 29 15:18:24 IST 2020
+--------------------------------
+
+http://192.168.1.19:80
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 200 response:
+
+/images/
+/
+/js/
+/css/
+/css/bootstrap/
+/fonts/
+/fonts/flaticon/
+/fonts/flaticon/font/
+/fonts/flaticon/license/
+
+Dirs found with a 403 response:
+
+/icons/
+/icons/small/
+/server-status/
+
+
+--------------------------------
+Files found during testing:
+
+Files found with a 200 responce:
+
+/images/blob_1.svg
+/index.html
+/images/blob_2.svg
+/course-single.html
+/images/undraw_teacher.svg
+/images/undraw_teaching.svg
+/images/undraw_youtube_tutorial.svg
+/js/aos.js
+/js/bootstrap-datepicker.min.js
+/js/jquery-3.3.1.min.js
+/js/jquery-migrate-3.0.1.min.js
+/js/bootstrap.min.js
+/js/jquery-ui.js
+/css/aos.css
+/js/owl.carousel.min.js
+/js/popper.min.js
+/css/bootstrap-datepicker.css
+/js/jquery.easing.1.3.js
+/js/jquery.countdown.min.js
+/css/owl.theme.default.min.css
+/css/magnific-popup.css
+/css/jquery-ui.css
+/js/typed.js
+/js/jquery.fancybox.min.js
+/css/owl.carousel.min.css
+/css/bootstrap.min.css
+/css/mediaelementplayer.css
+/js/jquery.sticky.js
+/js/main.js
+/js/jquery.stellar.min.js
+/js/jquery.magnific-popup.min.js
+/js/slick.min.js
+/js/mediaelement-and-player.min.js
+/css/bootstrap.min.css.map
+/css/jquery.fancybox.min.css
+/css/style.css
+/css/bootstrap/bootstrap-grid.css
+/css/bootstrap/bootstrap-reboot.css
+/css/bootstrap/bootstrap.css
+/fonts/flaticon/backup.txt
+/fonts/flaticon/font/Flaticon.eot
+/fonts/flaticon/font/Flaticon.ttf
+/fonts/flaticon/license/license.pdf
+/fonts/flaticon/font/Flaticon.svg
+/fonts/flaticon/font/_flaticon.scss
+/fonts/flaticon/font/Flaticon.woff
+/fonts/flaticon/font/flaticon.css
+/fonts/flaticon/font/Flaticon.woff2
+/fonts/flaticon/font/flaticon.html
+
+
+--------------------------------

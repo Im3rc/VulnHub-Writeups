@@ -1,0 +1,40 @@
+# Nmap 7.80 scan initiated Tue Sep 29 14:55:15 2020 as: nmap -A -T5 -O -p- -oN nmap.txt 192.168.1.19
+Nmap scan report for 192.168.1.19
+Host is up (0.00047s latency).
+Not shown: 65532 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:192.168.1.6
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 3
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 95:84:46:ae:47:21:d1:73:7d:2f:0a:66:87:98:af:d3 (RSA)
+|   256 af:79:86:77:00:59:3e:ee:cf:6e:bb:bc:cb:ad:96:cc (ECDSA)
+|_  256 9d:4d:2a:a1:65:d4:f2:bd:5b:25:22:ec:bc:6f:66:97 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: OneSchool &mdash; Website by Colorlib
+MAC Address: 08:00:27:09:6B:FC (Oracle VirtualBox virtual NIC)
+Aggressive OS guesses: Linux 2.6.32 (96%), Linux 3.2 - 4.9 (96%), Linux 2.6.32 - 3.10 (96%), Linux 3.4 - 3.10 (95%), Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), Synology DiskStation Manager 5.2-5644 (94%), Netgear RAIDiator 4.2.28 (94%), Linux 2.6.32 - 2.6.35 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.47 ms 192.168.1.19
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 29 14:55:42 2020 -- 1 IP address (1 host up) scanned in 28.05 seconds
